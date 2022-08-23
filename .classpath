@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/ititr/Downloads/json-simple-1.1.1.jar/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ititr/Downloads/openjdk-18+36_windows-x64_bin/jdk-18/lib/jrt-fs.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
