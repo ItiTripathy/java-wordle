@@ -1,4 +1,4 @@
-package java.wordle.project;
+package wordle;
 
 public class Main {
 
