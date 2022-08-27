@@ -1,13 +1,12 @@
 package wordle;
 
-import java.io.*;
+
 import java.util.*;
-import org.json.simple.*;
-import org.json.simple.parser.*;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Iterator;
+
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -40,13 +39,13 @@ public class GetARandomWordClass {
 			//return randomWord;
 			
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		} catch (ParseException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		return randomWord;
